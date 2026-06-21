@@ -78,7 +78,7 @@ function App() {
     setError(null);
 
     try {
-      const response = await fetch("https://student-performance-prediction-production.up.railway.app/predict", {
+      const response = await fetch("https://student-performance-prediction-production-a3d5.up.railway.app/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
